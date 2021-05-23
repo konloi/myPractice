@@ -1,0 +1,5 @@
+let isPalindrome = (x) =>{
+
+
+    
+}
