@@ -17,10 +17,9 @@ const checkPalindrome = (x) => {
     let isPalindome = false;
     while (i < mid) {
         if (arrayNumber[i] == arrayNumber[(arrayNumber.length - 1) - i]) {
-            console.log(' checking between ' + arrayNumber[i] + ' and ' + arrayNumber[(arrayNumber.length - 1) - i])
+
             isPalindome = true
         } else {
-            console.log(' checking between ' + arrayNumber[i] + ' and ' + arrayNumber[(arrayNumber.length - 1) - i])
             isPalindome = false;
             break;
         }
